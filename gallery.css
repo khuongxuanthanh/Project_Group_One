@@ -1,0 +1,256 @@
+/*Header --- Ở đây*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Teko',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.7;
+    text-decoration: none;
+    text-transform: none;
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    border-bottom: 1px solid #eeeeee;
+    height: 140px;
+    background-color: white;
+}
+.logo{
+    width: 35%;
+    float: left;
+}
+.header_img{
+    float: left;
+}
+.toplinks{
+    float: right;
+}
+.toplinks li{
+    float: left;
+    list-style: none;
+}
+.toplinks li:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+}
+#pin{
+    margin-top: -5px;
+    margin-left: 5px;
+}
+#twi{
+    margin-top: -4px;
+    margin-left: -5px;
+}
+#fb{
+    margin-left: 10px;
+}
+.nav{
+    border-bottom: 1px solid #eeeeee;
+    background-color: #a3967e;
+}
+.nav a{
+    color: white;
+}
+.nav a:hover{
+    border-bottom: white solid 1px;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 80px;
+    padding-left: 6%;
+
+}
+.nav li:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+/*Body --- Ở đây*/
+#main-header{
+    width: 100%;
+    height: 279px;
+    background-image: linear-gradient(to right, rgb(71,33,1, .5), rgb(45,21,10, .5)), url("../images/race1.jpg");
+    background-size: cover;
+    background-position: 0 400px;
+}
+.text-box{
+    position: relative;
+    top: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+h3{
+    position: relative;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.heading-primary_main{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+}
+.heading-primary_sub{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #F56331FF;
+    font-weight: bold;
+}
+.heading-primary_sub a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+.heading-primary_sub a:hover{
+    color: #F56331FF;
+}
+#main{
+    position: relative;
+    width: 1200px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 1px;
+}
+.body-head{
+    position: relative;
+    width: 1200px;
+    text-align: center;
+}
+.body-part_head{
+    color: #867c6b;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.body-part_main{
+    color: #F56331FF;
+    text-transform: lowercase;
+    font-size: 70px;
+    line-height: 80px;
+}
+.body-menu{
+    margin-top: 120px;
+    float: left;
+}
+.body-menu ul{
+    background: #EDEAE4;
+    width: 140px;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.body-menu a{
+    text-decoration: none;
+    color: #867c6b;
+}
+.body-menu li{
+    font-size: 16px;
+    width: auto;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #fcfcfc;
+    text-transform: capitalize;
+}
+#most-viewed{
+    display: block;
+    color: white;
+    background-color: #867c6b;
+}
+.body-menu li:hover{
+    color: #ffffff;
+    background-color: #867c6b;
+    transition: 0.5s;
+}
+.body-photo{
+    margin-top: 120px;
+    width: 1000px;
+    float: right;
+}
+.load-more{
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F56331FF;
+    text-align: center;
+    position: absolute;
+    left: 1060px;
+}
+.load-more a{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+.load-more:hover{
+    background-color: #867c6b;
+}
+/*Footer --- Ở đây*/
+.footer{
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+.logo2{
+    float: left;
+    width: 15%;
+    margin-top: 25px;
+}
+.address{
+    float: left;
+    font-size: 25px;
+}
+.more_info{
+    float: left;
+    font-size: 18px;
+    margin-left: 120px;
+    text-align: center;
+}
+.more_info a{
+    color: black;
+}
+.more_info a:hover{
+    border-bottom: 1px solid black;
+}
+.toplinks2{
+    float: right;
+}
+.toplinks2 li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.toplinks2 li:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+}
+#pin2{
+    margin-top: 74px;
+}
+#twi2{
+    margin-top: 74px;
+    margin-left: 20px;
+}

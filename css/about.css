@@ -1,0 +1,279 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Teko', sans-serif;
+    line-height: 1.25;
+    border: 0;
+    background-color: #ffffff;
+    margin: 0;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Teko', sans-serif;
+    font-weight: 100;
+}
+.header{
+    border-bottom: 1px solid #eeeeee;
+    height: 140px;
+    background-color: white;
+    font-weight: 100;
+}
+.logo{
+    width: 35%;
+    float: left;
+}
+.header_img{
+    float: left;
+}
+.toplinks{
+    float: right;
+}
+.toplinks li{
+    float: left;
+    list-style: none;
+}
+.toplinks li:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+}
+#pin{
+    margin-top: -5px;
+    margin-left: 5px;
+}
+#twi{
+    margin-top: -4px;
+    margin-left: -5px;
+}
+#fb{
+    margin-left: 10px;
+}
+.nav{
+    border-bottom: 1px solid #eeeeee;
+    background-color: #a3967e;
+}
+.nav a{
+    color: white;
+}
+.nav a:hover{
+    border-bottom: white solid 1px;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 80px;
+    padding-left: 6%;
+
+}
+.nav li:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+/*----Body----*/
+.text-box{
+    width: 100%;
+    height: 279px;
+    background-image: linear-gradient(to right, rgb(71,33,1, .5), rgb(45,21,10, .5)), url("../images/race1.jpg");
+    background-size: cover;
+    background-position: 0 400px;
+    margin-top: 0;
+}
+#h3{
+    width: 1200px;
+    height: 279px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 1px;
+}
+.heading-primary_main{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+.heading-primary_sub{
+    margin-top: 160px;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #F56331FF;
+
+}
+.heading-primary_sub a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+.heading-primary_sub a:hover{
+    color: #F56331FF;
+}
+#contact{
+    margin-top: 45px;
+}
+.team-intro{
+    width: 1200px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+.about-us{
+    font-size: 60px;
+    font-weight: normal;
+    color: #F56331FF;
+    margin: 45px;
+}
+.photo-title{
+    width: 1200px;
+    text-align: center;
+    margin-top: 50px;
+}
+.body-part_head{
+    color: #867c6b;
+    text-transform: uppercase;
+}
+.body-part_main{
+    color: #F56331FF;
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 80px;
+}
+.team-img{
+    margin-top: 45px;
+}
+#info{
+    float: left;
+}
+.main-info{
+    font-weight: 300px;
+    font-size: 25px;
+    color: #867c6b;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: #867c6b;
+    text-transform: uppercase;
+    box-sizing: content-box;
+    padding-bottom: 5px;
+}
+.main-info-detail{
+    color: #F56331FF;
+    font-size: 25px;
+    box-sizing: content-box;
+    padding-bottom: 5px;
+
+}
+#sharing{
+    float: right;
+    width: 700px;
+    height: 650px;
+    background-color: #272420;
+    box-sizing: border-box;
+    padding: 100px;
+}
+.tit{
+    font-size: 70px;
+    color: #F56331FF;
+    margin: 0;
+}
+.name-email{
+    color: white;
+    float: left;
+    width: 225px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 5px;
+}
+input{
+    margin-bottom: 10px;
+    background-color: #867c6b;
+}
+.message{
+    color: white;
+    float: right;
+    width: 225px;
+    height: 110px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.checkbox{
+    color: white;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
+}
+.submit{
+    color: white;
+    background-color: #F56331FF;
+    float: left;
+    padding: 7.5px 12.5px;
+    margin: 0 0 0 5px;
+    line-height: 16px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*----Footer----*/
+.footer{
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+.logo2{
+    float: left;
+    width: 15%;
+    margin-top: 25px;
+}
+.address{
+    float: left;
+    font-size: 25px;
+}
+.more_info{
+    float: left;
+    font-size: 18px;
+    margin-left: 120px;
+    text-align: center;
+}
+.more_info a{
+    color: black;
+}
+.more_info a:hover{
+    border-bottom: 1px solid black;
+}
+.toplinks2{
+    float: right;
+}
+.toplinks2 li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.toplinks2 li:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+}
+#pin2{
+    margin-top: 74px;
+}
+#twi2{
+    margin-top: 74px;
+    margin-left: 20px;
+}
